@@ -58,6 +58,12 @@
     <Compile Include="GUI\f学生.Designer.cs">
       <DependentUpon>f学生.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\f学科管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\f学科管理.Designer.cs">
+      <DependentUpon>f学科管理.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\fログイン.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\f学生.resx">
       <DependentUpon>f学生.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\f学科管理.resx">
+      <DependentUpon>f学科管理.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
